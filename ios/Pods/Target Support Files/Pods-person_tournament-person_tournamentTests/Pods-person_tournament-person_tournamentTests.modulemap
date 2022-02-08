@@ -1,0 +1,6 @@
+module Pods_person_tournament_person_tournamentTests {
+  umbrella header "Pods-person_tournament-person_tournamentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
