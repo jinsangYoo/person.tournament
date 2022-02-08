@@ -61,7 +61,7 @@ const App = () => {
    [])
 
   CloudMessaging();
-  console.log('rnForNHNData is ready.');
+  console.log('person_tournament is ready.');
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <ToggleThemeProvider toggleTheme={toggleTheme}>
