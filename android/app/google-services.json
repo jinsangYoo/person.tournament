@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020654024186",
+    "project_id": "person-tournament",
+    "storage_bucket": "person-tournament.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020654024186:android:170e6c0ee1588fec65e043",
+        "android_client_info": {
+          "package_name": "com.person_tournament"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020654024186-nc7788re4iqn3ivgnshehaeh3eso7rmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8fHZ2nZDphgsEyF1ttmNO20ntkBg39E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020654024186-nc7788re4iqn3ivgnshehaeh3eso7rmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
