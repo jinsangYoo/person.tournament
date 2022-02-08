@@ -1,0 +1,14 @@
+com/person_tournament/BuildConfig.java
+ com.person_tournament.BuildConfig
+com/person_tournament/MainActivity.java
+ com.person_tournament.MainActivity
+com/person_tournament/MainApplication.java
+ com.person_tournament.MainApplication
+ com.person_tournament.MainApplication$1
+com/person_tournament/ReactNativeFlipper.java
+ com.person_tournament.ReactNativeFlipper
+ com.person_tournament.ReactNativeFlipper$1
+ com.person_tournament.ReactNativeFlipper$2
+ com.person_tournament.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

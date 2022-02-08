@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.person_tournament"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/jinsangyoo/.gradle/caches/transforms-3/85722bbced5f75f7128f01e28eb86f9e/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/jinsangyoo/.gradle/caches/transforms-3/85722bbced5f75f7128f01e28eb86f9e/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+16-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+17
+18    <application
+18-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:6:5-24:19
+19        android:name="com.person_tournament.MainApplication"
+19-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d3d370670d8dbd7ec202f2a9db7ebc37/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/debug/AndroidManifest.xml:8:9-44
+28        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+28-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/debug/AndroidManifest.xml:11:9-86
+28-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/debug/AndroidManifest.xml:11:19-83
+29        <activity
+29-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:13:7-23:18
+30            android:name="com.person_tournament.MainActivity"
+30-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+31-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:16:9-86
+32            android:label="@string/app_name"
+32-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:15:9-41
+33            android:launchMode="singleTask"
+33-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:17:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:18:9-51
+35            <intent-filter>
+35-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:20:13-65
+36-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:21:13-73
+38-->/Users/jinsangyoo/Desktop/Project/person_tournament/android/app/src/main/AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+42-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+42-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+43        <service
+43-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+44            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+44-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+45            android:exported="false" >
+45-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+46            <intent-filter>
+46-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+47                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+47-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+47-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+48            </intent-filter>
+49        </service>
+50
+51        <receiver
+51-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+52            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+52-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+53            android:exported="true"
+53-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+54            android:permission="com.google.android.c2dm.permission.SEND" >
+54-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+55            <intent-filter>
+55-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+56                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+56-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+56-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+57            </intent-filter>
+58        </receiver>
+59
+60        <meta-data
+60-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+61            android:name="firebase_messaging_auto_init_enabled"
+61-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+62            android:value="true" />
+62-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+63        <meta-data
+63-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+64            android:name="com.google.firebase.messaging.default_notification_channel_id"
+64-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+65            android:value="" />
+65-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+66        <meta-data
+66-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+67            android:name="com.google.firebase.messaging.default_notification_color"
+67-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+68            android:resource="@color/white" />
+68-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+69        <meta-data
+69-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+70            android:name="app_data_collection_default_enabled"
+70-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+71            android:value="true" />
+71-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+72
+73        <service
+73-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+77            <meta-data
+77-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+78                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+78-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+81                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+81-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/df6a79a99b260ce77c9364f6880f6b3a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+84                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+84-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/df6a79a99b260ce77c9364f6880f6b3a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/df6a79a99b260ce77c9364f6880f6b3a/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-installations:17.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/8988d75e8fd616751377ffdb863f8c8b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+87                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+87-->[com.google.firebase:firebase-installations:17.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/8988d75e8fd616751377ffdb863f8c8b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-installations:17.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/8988d75e8fd616751377ffdb863f8c8b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+89        </service>
+90
+91        <provider
+91-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+92            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+92-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+93            android:authorities="com.person_tournament.reactnativefirebaseappinitprovider"
+93-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+94            android:exported="false"
+94-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+95            android:initOrder="99" />
+95-->[:react-native-firebase_app] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+96        <provider
+96-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+97            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+97-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+98            android:authorities="com.person_tournament.fileprovider"
+98-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+99            android:exported="false"
+99-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+100            android:grantUriPermissions="true" >
+100-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+101            <meta-data
+101-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+103                android:resource="@xml/file_provider_paths" />
+103-->[:react-native-webview] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+104        </provider>
+105
+106        <receiver
+106-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+107            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+107-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+108            android:exported="true"
+108-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+109            android:permission="com.google.android.c2dm.permission.SEND" >
+109-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+110            <intent-filter>
+110-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+111-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+111-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+112            </intent-filter>
+113        </receiver>
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-messaging:23.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9cd7d9b6c30adfe8fcbfc09b66753e90/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+122            <intent-filter android:priority="-500" >
+122-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+123                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+123-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+123-->[:react-native-firebase_messaging] /Users/jinsangyoo/Desktop/Project/person_tournament/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+124            </intent-filter>
+125        </service>
+126        <service
+126-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+127            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+127-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+128            android:exported="false" >
+128-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+129            <meta-data
+129-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+130                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+130-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+131                android:value="cct" />
+131-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/d813a6c306d14a6fce92ad421fda2666/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+132        </service>
+133
+134        <provider
+134-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+135            android:name="com.google.firebase.provider.FirebaseInitProvider"
+135-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+136            android:authorities="com.person_tournament.firebaseinitprovider"
+136-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+138            android:exported="false"
+138-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+139            android:initOrder="100" />
+139-->[com.google.firebase:firebase-common:20.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/bdacc25ea80059c09049f1581cb7a011/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+140
+141        <service
+141-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+142-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+143            android:exported="false"
+143-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" >
+144-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+145        </service>
+146
+147        <receiver
+147-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+148-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+149            android:exported="false" />
+149-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/9a5de049a02ad5cd9f43a16387d157b5/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+150
+151        <activity
+151-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+152            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+152-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+153            android:excludeFromRecents="true"
+153-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+156        <!--
+157            Service handling Google Sign-In user revocation. For apps that do not integrate with
+158            Google Sign-In, this service will never be started.
+159        -->
+160        <service
+160-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+161            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+161-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+162            android:exported="true"
+162-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+163            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+163-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+164            android:visibleToInstantApps="true" />
+164-->[com.google.android.gms:play-services-auth:20.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/261fe5e97fcc0fde3c3adea851e83554/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:18.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:18.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:18.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:18.0.1] /Users/jinsangyoo/.gradle/caches/transforms-3/f127bbc845529d1ba62306dbd8c95943/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jinsangyoo/.gradle/caches/transforms-3/0f5596c4a55863aa29d7caf4d041377f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+174    </application>
+175
+176</manifest>
